@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+   }
+   
+   /* Style the body */
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E9E9E9;
+   }
+   
+   /* Header/logo Title */
+   .header {
+    display: flex;
+    padding: 10px;
+    padding-left: 550px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    gap: 30px;
+    box-shadow: calc(4px * 4) 0 calc(4px * 8) rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+   }
+   
+   .header a{
+       color:white;
+       text-decoration: none;
+   }
+   
+   .header a:hover{
+       text-decoration: underline;
+       font-weight: bolder;
+   }
+   
+   
+   /* Style the top navigation bar */
+   .navbar {
+    overflow: hidden;
+    background-color: #333;
+   }
+   
+   /* Style the navigation bar links */
+   .navbar from {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+   }
+
+   .logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 475px;
+    width:300px;
+}
+
+#map{ 
+    height: 450px;
+    width: 100%;
+    box-shadow: 0px 7px 7px 7px #e1e1e1;
+}
+
+.map-container {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+.button1{
+    width: 100%;
+    background-color: #c7c4c4;
+    width: 250px;
+    height: 30px;
+    margin-right: 14px;
+    ;
+}
+.button1:hover{
+    background-color:#a5a4a4;
+}
+.button1:active{
+    background-color:#c4c1c1;
+}
+
+
+.footer {
+    margin-top: 150px;
+    text-align:center;
+    background: #c0c0c0;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex
+   }
+
+/*Dropdown Button for REGIONS*/ 
+
+.dropbutton {
+    background-color: #d4d4d4;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    width: 100%;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 3px 12px 7px #dfdede;
+    margin-left: 500px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position:static;
+    background-color: #dcdcdc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 500px;
+    padding-top: 8px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+/*
+  END OF REGION DROPDOWN   /  START OF METRO DROPDOWN
+*/
+
+.metrobutton {
+    background-color: #d4d4d4;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    width: 100%;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 3px 12px 7px #dfdede;
+    margin-left: 600px;
+  }
+  
+  .metrodown {
+    position: relative;
+    display: inline-block;
+
+
+  }
+  
+  #metrobutton {
+    background-color: #d4d4d4;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    width: 100%;
+    width: 175px;
+    height: 100px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 3px 12px 7px #dfdede;
+    margin-left: 600px;
+    border: 2px solid black;
+
+    
+}
+#metrobutton:hover{
+    background-color:#a5a4a4;
+}
+#metrobutton:active{
+    background-color:#c4c1c1;
+}
+  
+  
+  /* Links inside the dropdown */
+
+
+
+  .metro-dropdown a:hover {background-color: #ddd;}
+  
+  .metrodown:hover .metro-dropdown.dropdown {display: block;}
+  /*
+  END OF METRO DROPDOWN
+*/
+
+.logo2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:300px;
+  margin-left: 286px;
+}
+
+.FootText {
+    margin-left: 146px;
+    margin-top:47px;
+}
+.dropdowns{
+    display: flex;
+}
+
+.metrologo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:75px;
+  margin-left: 175px;
+}
+
+.whatuni{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:75px;
+  margin-left: 75px;
+}
+.cug{
+  padding-top: 20px;
+  padding-bottom: 20px;
+   width:170px;
+   margin-left: 75px;
+}

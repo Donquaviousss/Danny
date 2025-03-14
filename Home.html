@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="crossorigin=""></script>
+
+<link rel="stylesheet" href="./styles/Styles.css" />
+<script src="./scripts/scripts.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+
+</head>
+<body>
+
+<a href="Home.html">
+    <img class="logo" src="Assets/Logo.png")>
+</a>    
+    
+<div class="header">
+    <a class="nav" href="Home.html">Home</a>
+    <a class="nav" href="Map.html">Full Map</a>
+    <a class="nav" href="Charts.html"> Charts</a>
+</div>
+
+
+
+<div class="map-container">
+    <div id="map"></div>
+    <a class="nav" href="Map.html">
+            <button class="button1" type="button">View Full graph </button>
+    </a>
+    <p class="MapInfo">This map is used to exactly showcase the spot on locations of several university's. This showcases the university's which make up the "Universities for North East" Collaboration<br>
+    Due to this the Map only showcases the 5 Universities to make up that organisation. Click the "Full graph button above to look at the map full size and have more options.
+    </p>
+</div>
+
+
+</body>
+
+
+<div class="graphs">
+    <div>
+        <h2 class="graphInfo">University acceptance rates<br> (In percentage %)</h2>
+        <div class="chart">
+            <canvas id="HomePageChart1" width="400" height="200"></canvas>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="graphInfo2">Students Satisfaction Rating<br> (in percentage %)</h2>
+        <div class="chart">
+            <canvas id="HomePageChart2" width="400" height="200"></canvas>
+        </div>
+
+    </div>
+</div>
+
+<div class="map-container">
+    <a class="nav" href="Charts.html">
+            <button class="button2" type="button">View All Charts </button>
+    </a>
+    <p class="nav"> Data Acquired from <a href="https://www.thecompleteuniversityguide.co.uk/">Complete University Guide</a></p>
+</div>
+
+
+<div class="footer">
+    <a href="Home.html">
+        <img class="logo2" src="Assets/Logo.png")>
+    </a>   
+    <h2 class="FootText">Made By Danny<br> (A "Little" help from Stephen 🤫😁) </h2>
+
+    <div class="icons">
+        <a href="https://www.nexus.org.uk/metro">
+        <img class="metrologo" src="Assets/Metro_full.png">
+        </a>   
+        <a href="https://www.whatuni.com/?campaign=63636&utm_source=pmx&utm_medium=paid&utm_campaign=baucpe2024&utm_term=client&utm_content=wu_paid_pmx_baucpe2024_client_pagefeeds_tier1_null_null&campaign=57861&utm_source=cross-network&utm_medium=paid&utm_campaign=baucpe2024&utm_term=brand&utm_content=wu_paid_cross-network_baucpe2024_brand_allsitetraffic_null_null_null&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KdVHVuq7Ope0fGYp5dl9TuTW7eTKsIulncRPOHRE298I0B_Q4-5iIYaAieuEALw_wcB">
+        <img class="whatuni" src="Assets/whatuni.png">
+        </a>   
+        <a href="https://www.thecompleteuniversityguide.co.uk/">
+        <img class="cug" src="Assets/cug.png">
+        </a>   
+    
+    </div>
+
+
+</div>
+
+
+ 
+
+</body>
+</html>

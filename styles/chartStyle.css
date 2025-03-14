@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+   }
+   
+   /* Style the body */
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E9E9E9;
+   }
+   
+   /* Header/logo Title */
+   .header {
+    display: flex;
+    padding: 10px;
+    padding-left: 550px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    gap: 30px;
+    box-shadow: calc(4px * 4) 0 calc(4px * 8) rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+   }
+   
+   .header a{
+       color:white;
+       text-decoration: none;
+   }
+   
+   .header a:hover{
+       text-decoration: underline;
+       font-weight: bolder;
+   }
+   
+   
+   /* Style the top navigation bar */
+   .navbar {
+    overflow: hidden;
+    background-color: #333;
+   }
+   
+   /* Style the navigation bar links */
+   .navbar from {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+   }
+
+   .logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 475px;
+    width:300px;
+}
+
+.footer {
+    margin-top: 60px;
+    text-align:center;
+    background: #c0c0c0;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex
+   }
+
+   .logo2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:300px;
+    margin-left: 286px;
+}
+.FootText {
+    margin-left: 146px;
+    margin-top:47px;
+}
+.dropdowns{
+    display: flex;
+}
+
+.metrologo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:75px;
+  margin-left: 175px;
+}
+
+.whatuni{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:75px;
+  margin-left: 75px;
+}
+
+.cug{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:170px;
+    margin-left: 75px;
+  }
+
+
+/*charts*/
+.chart{
+
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 3px 9px 7px #dfdede;
+}
+
+.graphs{
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.fullWidthGraph{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    width:100%;
+    align-items: center;
+    
+}
+
+#chart5 {
+    background-color: #dfdede;
+    box-shadow: 0px 2px 8px 6px #dfdede;
+}

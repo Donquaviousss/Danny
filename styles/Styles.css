@@ -1,0 +1,253 @@
+* {
+ box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ background-color: #e8e8e8;
+}
+
+/* Header/logo Title */
+.header {
+display: flex;
+ padding: 10px;
+ padding-left: 550px;
+ background: black;
+ color: rgb(255, 255, 255);
+ font-size: larger;
+gap: 30px;
+ box-shadow: calc(4px * 4) 0 calc(4px * 8) rgba(0, 0, 0, 0.5);
+ margin-bottom: 25px;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+ overflow: hidden;
+ background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar from {
+ float: left;
+ display: block;
+ color: rgb(255, 255, 255);
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+ float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+ background-color: #807b7b;
+ color: rgb(199, 119, 119);
+}
+
+/* Column container */
+.row {
+ display: -ms-flexbox; /* IE10 */
+ display: flex;
+ -ms-flex-wrap: wrap; /* IE10 */
+ flex-wrap: wrap;
+}
+
+
+/* Main column */
+.main {
+ -ms-flex: 70%; /* IE10 */
+ flex: 70%;
+ background-color: #E9E9E9;
+ padding: 20px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 10px;
+    text-align:center;
+    background: #c0c0c0;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex
+   }
+
+   .logo2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:300px;
+    margin-left: 286px;
+}
+.FootText {
+    margin-left: 146px;
+    margin-top:47px;
+}
+.dropdowns{
+    display: flex;
+}
+
+.metrologo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:75px;
+  margin-left: 175px;
+}
+
+.whatuni{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:75px;
+  margin-left: 75px;
+}
+
+.cug{
+    padding-top: 20px;
+    padding-bottom: 20px;
+     width:170px;
+     margin-left: 75px;
+}
+/*end of footer*/
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+ .row {
+ flex-direction: column;
+ }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+ .navbar from {
+ float: none;
+ width: 100%;
+ }
+}
+
+
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 475px;
+    width:300px;
+}
+
+#map{ 
+    height: 450px;
+    width: 60%;
+    box-shadow: 0px 7px 7px 7px #e1e1e1;
+}
+
+.map-container {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.button1{
+    width: 100%;
+    background-color: #c7c4c4;
+    width: 250px;
+    height: 30px;
+    ;
+}
+
+.button1:hover{
+    background-color:#a5a4a4;
+}
+.button1:active{
+    background-color:#c4c1c1;
+}
+
+.button2{
+    width: 10%;
+    background-color: #c7c4c4;
+    
+}
+
+.button2:hover{
+    background-color:#b3b2b2;
+}
+.button2:active{
+    background-color:#585656;
+}
+
+
+
+.graphs{
+
+    text-align: left;
+    margin-left: 350px;
+    display: flex;
+    gap: 200px;
+    
+}
+
+.MapInfo{
+    font-size: large;
+    background-color: #e4e4e4;
+    padding: 7px;
+    box-shadow: 0px 3px 9px 7px #dfdede;
+    text-align: center;
+}
+
+.Graph_1{
+    width: 100%;
+}
+
+.chart{
+    width: 500px;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 3px 9px 7px #dfdede;
+}
+
+.graphs div h2{
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 3px;
+}
+
+
+.button2 {
+    width: 100%;
+    background-color: #c7c4c4;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.graphInfo{
+    box-shadow: 3px 3px 9px 7px #dfdede;
+}
+.graphInfo2{
+    box-shadow: 3px 3px 9px 7px #dfdede;
+}
+
+.datafrom a {
+    display: flex
+    ;
+    padding: 10px;
+    padding-left: 550px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}

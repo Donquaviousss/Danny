@@ -1,0 +1,67 @@
+evidence hub website
+
+
+w3 schools template.
+
+-use logo
+-use layout of the header but change its contents
+-possibly keep banner, if i di then keep the words overlay there but change what they say.
+
+EITHER
+-update the "latest updates" on the page
+- change format
+
+OR
+-replace "latest updates" with a map of something idk yet
+(metros,people they've worked with)
+
+
+-Further down the page have some graphs on showcase about employement stats, similar to the page on the actual website
+   -if clicked on, brings you to a page with more in depth graphs and tables of information.
+
+-add images on the bottom of the page showcasing the places evidence hub work with along with their locasion and social media links.
+-subtle animations buttons growing when u hover them)
+-labels on graphs, maps or tables filled with information. May even be on random front page information paragraphs.
+
+northeast
+You clicked the map at LatLng(54.977811, -1.606826) -northumbria
+You clicked the map at LatLng(54.980052, -1.614808) - newcastle
+You clicked the map at LatLng(54.904411, -1.39168) - sunderland
+You clicked the map at LatLng(54.762918, -1.58142) - durham
+You clicked the map at LatLng(54.569375, -1.235619) - teeside
+
+northern
+You clicked the map at LatLng(53.7915, -1.765966) - bradford
+You clicked the map at LatLng(53.186223, -2.884705) - chester
+You clicked the map at LatLng(53.407255, -2.965826) - liverpool
+You clicked the map at LatLng(53.373255, -1.492467) - Sheffield
+You clicked the map at LatLng(53.773243, -0.366948) - Hull
+
+Eastern
+You clicked the map at LatLng(52.621002, 1.235962) - East Anglia
+You clicked the map at LatLng(52.052411, 1.163349) - Suffolk
+You clicked the map at LatLng(52.204701, 0.128757) - parkside ARU Cambridge
+You clicked the map at LatLng(51.878769, 0.94373) - Essex
+You clicked the map at LatLng(52.586605, -0.232569) - Peterborough
+
+Western
+You clicked the map at LatLng(52.484936, -1.883705) - Birmingham
+You clicked the map at LatLng(52.487073, -1.889627) - Aston
+You clicked the map at LatLng(52.588254, -2.12755) - Wolverhampton
+You clicked the map at LatLng(52.780158, -2.426562) - Harper Adams
+You clicked the map at LatLng(52.197862, -2.241468) - Worchester St John
+
+Southern
+You clicked the map at LatLng(51.242874, -0.590134) - Surrey
+You clicked the map at LatLng(51.756936, -1.254737) - oxford
+You clicked the map at LatLng(51.52022, -0.12983) - london
+You clicked the map at LatLng(51.458285, -2.601528) - bristol
+You clicked the map at LatLng(51.295417, 1.067248) - kent
+
+
+Metro locations
+54.977501, -1.613928 - Haymarket (closest to newcastle and northumbria)
+54.974002, -1.613177 - Monument (Not closest to any but in the centre)
+54.968754, -1.617227 - Central Station (trains)
+54.906094, -1.382421 - Sunderland (closest to sunderland 🤯)
+54.779712, -1.581473 - Durham (from central->durham on train)
